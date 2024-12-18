@@ -1,0 +1,43 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Custom Button */
+.custom-button {
+  width: 220px;
+  height: 60px;
+  background-color: #2daed7; /* Teal Background */
+  color: #ffffff; /* White Text */
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 15px; /* Rounded Corners */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #007499; /* Darker Teal on Hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
